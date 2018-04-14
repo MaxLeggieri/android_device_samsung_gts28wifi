@@ -24,3 +24,6 @@ PRODUCT_COPY_FILES += \
 
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/samsung/gts28wifi/gts28wifi-vendor.mk)
+
+# call the ANT setup
+$(call inherit-product, external/ant-wireless/build/ant-wireless.mk)

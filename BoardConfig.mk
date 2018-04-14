@@ -19,3 +19,6 @@ BOARD_SEPOLICY_DIRS := $(LOCAL_PATH)/sepolicy
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
+
+# ANT wireless
+BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
